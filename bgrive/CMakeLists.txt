@@ -40,4 +40,6 @@ set_target_properties( bgrive_executable
 )
 
 install(TARGETS bgrive_executable RUNTIME DESTINATION bin)
-install(FILES doc/grive.1 DESTINATION share/man/man1 )
+#Comment out because doc/grive.1 is not build so installation
+#gives error
+#install(FILES doc/grive.1 DESTINATION share/man/man1 )
